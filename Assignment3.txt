@@ -1,0 +1,65 @@
+"C:\Users\Mikdad A\PycharmProjects\pythonProject\.venv\Scripts\python.exe" "C:\Users\Mikdad A\PycharmProjects\pythonProject\Assignment3.py"
+question q1
+{0, 1, 2, 3, 4, 5, 6, 7, 8, 9} {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+f_identity is_total True, is_partial True, is_injective True, is_surjective True, is_bijective True
+{1, 2, 3, 4, 5, 6, 7, 8, 9} {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+f_successor is_total False, is_partial True, is_injective True, is_surjective False, is_bijective False
+{0, 1, 2, 3, 4, 5, 6, 7, 8} {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+f_predecessor is_total False, is_partial True, is_injective True, is_surjective False, is_bijective False
+{0, 1, 4, 9} {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+f_square is_total False, is_partial True, is_injective True, is_surjective False, is_bijective False
+
+question q2
+union {'bb', 'dddd', 'abcd', 'a', 'ccc', 'ab', 'abc'}
+intersection {'bb'}
+difference {'dddd', 'abcd', 'a', 'ccc', 'ab', 'abc'}
+symmetric_difference {'dddd', 'abcd', 'a', 'ccc', 'ab', 'abc'}
+power_set <itertools.chain object at 0x0000028DF84DE680>
+power_set <itertools.chain object at 0x0000028D898BD7E0>
+
+question q3
+Sum Counting Numbers:  55 55.0
+Sum Squares:  385 385.0
+Sum Cubes:  3025 3025.0
+Sum Geometric:  362797055 362797055.0
+Sum Arithmetic:  275 275.0
+
+question q4
+[[ 6 11  2 16  9]
+ [ 3  6  7 18  2]
+ [17  6 14 13 13]
+ [13  6 12  9  7]
+ [ 2 16  7  9 10]]
+
+[[ 6  3 17 13  2]
+ [11  6  6  6 16]
+ [ 2  7 14 12  7]
+ [16 18 13  9  9]
+ [ 9  2 13  7 10]]
+
+[[ 58  55  95  60  36]
+ [ 84  67 111  86  65]
+ [116 119 105 132 139]
+ [129 161 144 167 159]
+ [ 65  84  99 149  66]]
+
+[[ 75 120  15 105 120]
+ [ 34  51  51 170  17]
+ [210 105 168 189 210]
+ [120  90 240  30  30]
+ [ 21 126 105 105 126]]
+
+
+question q5
+Old number: 0.010011 0.296875
+Old number: 0.101010 0.65625
+Old number: 0.111000 0.875
+Old number: 0.000111 0.109375
+Old number: 0.111111 0.984375
+Old number: 0.111000 0.875
+New number: 0.110001 0.765625
+
+question q6
+
+
+Process finished with exit code 0
