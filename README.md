@@ -1,5 +1,5 @@
 
-This project pertains to classification of functions, operations on sets, calculations of sums, matrix operations, generating new numbers from an existing set, and deriving formulas for arithmetics sequences.
+This project pertains to the classification of functions, operations on sets, calculations of sums, matrix operations, generating new numbers from an existing set, and deriving formulas for arithmetics sequences.
 
 [1] Define a function get_function_type(func, func_domain, func_co_domain) that receives a function "func" and two sets - domain and co_domain and determines whether the function passed in is "partial", "bijectve", "injective", or "surjective". First, compute func_range by evaluating the function for each value of the domain.
 
@@ -81,14 +81,14 @@ Test your function for the cases p = 1, 2, 3, 4, 5. (For cases 1, 2 and 3, compa
 
 
 def calc_sum(n, p):
-    # return sum([i**p for i in range(n+1)])
+     return sum([i**p for i in range(n+1)])
     s = 0
     for i in range(n + 1):
         s += i ** p
     return s
 
 
-# Generate the "vector" (one-dimensional matrix) b by finding for each row j = 0, 1, 2, …, p, the value of s(j, p)
+ Generate the "vector" (one-dimensional matrix) b by finding for each row j = 0, 1, 2, …, p, the value of s(j, p)
 def generate_vector(p):
     # return [sum_power(j,p) for j in range(p+1)]
     vector = []
@@ -97,7 +97,7 @@ def generate_vector(p):
     return vector
 
 
-# Generate the "matrix" A by finding for each row j = 0, 1, 2, …, p, the values jp+1, jp, jp-1,..., j0.
+ Generate the "matrix" A by finding for each row j = 0, 1, 2, …, p, the values jp+1, jp, jp-1,..., j0.
 def calc_matrix_A(p):
     A = []
     for j in range(p + 2):
@@ -115,7 +115,7 @@ def calc_vector_b(p):
     return b
 
 
-# represent the summation as a readable polynomial
+ represent the summation as a readable polynomial
 def string_summation(n, p):
     s = ""
     for i in range(1, n + 1):
@@ -123,7 +123,7 @@ def string_summation(n, p):
     return s
 
 
-# represent the formula in a readable format
+ represent the formula in a readable format
 def string_formula(formula, p):
     s = ""
     term = p + 1
@@ -135,7 +135,7 @@ def string_formula(formula, p):
     return s
 
 
-# Solve the system of linear equations Ax = b. The solution vector x will be the coefficients of the polynomial.
+ Solve the system of linear equations Ax = b. The solution vector x will be the coefficients of the polynomial.
 
 def derive_formula(p):
     a = calc_matrix_A(p)
@@ -150,7 +150,7 @@ def derive_formula(p):
     return x
 
 
-# Calculate the sum using the formula that we derived
+ Calculate the sum using the formula that we derived
 def calc_sum_with_formula(coefs, n):
     result = 0
     term = len(coefs) - 1
@@ -160,8 +160,8 @@ def calc_sum_with_formula(coefs, n):
     return result
 
 
-# Solve the system of linear equations Ax = b. The solution vector x will be the coefficients of the polynomial.
-# Test the polynomial to see that it matches s(n, p)
+ Solve the system of linear equations Ax = b. The solution vector x will be the coefficients of the polynomial.
+ Test the polynomial to see that it matches s(n, p)
 
 
 def question_6():
