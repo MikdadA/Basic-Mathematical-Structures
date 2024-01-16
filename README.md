@@ -174,10 +174,10 @@ def question_6():
     # vector = generate_vector(3)
     # print(vector)
 
-    dr = 5  # digits for rounding
-    n = int(input("Please enter the number of terms (n) in each summation: "))
-    m = int(input("Please enter the maximum power (p) to test: "))
-    for p in range(1, m + 1):
+dr = 5  # digits for rounding
+n = int(input("Please enter the number of terms (n) in each summation: "))
+ m = int(input("Please enter the maximum power (p) to test: "))
+ for p in range(1, m + 1):
         coefs = derive_formula(p)
         sum_with_formula = round(calc_sum_with_formula(coefs, n), dr)
         sum_with_loop = round(calc_sum(n, p), dr)
